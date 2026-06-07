@@ -15,5 +15,6 @@ export const galleryConfig: GalleryEntry[] = [
   { id: 'howto',     title: 'How to Build with AI',     slideCount: 10, route: '#/howto',        thumbnail: 'howto.png' },
   { id: 'learnflow', title: 'LearnFlow Pitch Deck',     slideCount: 9,  route: '#/learnflow',    thumbnail: 'learnflow.png' },
   { id: 'ferric',    title: 'Ferric CLI v1.0',          slideCount: 9,  route: '#/ferric',       thumbnail: 'ferric.png' },
-  { id: 'q2review',  title: 'Q2 2026 Business Review',  slideCount: 15, route: '#/q2review',     thumbnail: 'q2review.png' },
+  { id: 'q2review',   title: 'Q2 2026 Business Review',    slideCount: 15, route: '#/q2review',    thumbnail: 'q2review.png' },
+  { id: 'humanoids',  title: 'The Humanoid Revolution',    slideCount: 11, route: '#/humanoids',   thumbnail: 'humanoids.png' },
 ];

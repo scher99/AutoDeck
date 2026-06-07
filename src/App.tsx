@@ -25,6 +25,8 @@ import { slidesQ2ReviewEN } from './slides/data/slides-q2review-en';
 import { q2ReviewCreationStory } from './slides/data/creation-story-q2review';
 import { slidesMetaEN } from './slides/data/slides-meta-en';
 import { metaCreationStory } from './slides/data/creation-story-meta';
+import { slidesVlaEN } from './slides/data/slides-vla-en';
+import { slidesHumanoidsEN } from './slides/data/slides-humanoids-en';
 
 const techBriefConfig: PresentationConfig = {
   title: 'AutoSpec TechBrief',
@@ -89,6 +91,24 @@ const metaConfig: PresentationConfig = {
   brandingUrl: 'https://github.com/Hundia/AutoDeck',
 };
 
+const vlaConfig: PresentationConfig = {
+  title: 'VLA Models',
+  languages: [{ id: 'en', label: 'English' }],
+  defaultLanguage: 'en',
+  background: 'constellation',
+  branding: 'Built with AutoDeck',
+  brandingUrl: 'https://github.com/Hundia/AutoDeck',
+};
+
+const humanoidsConfig: PresentationConfig = {
+  title: 'The Humanoid Revolution',
+  languages: [{ id: 'en', label: 'English' }],
+  defaultLanguage: 'en',
+  background: 'particles',
+  branding: 'Built with AutoDeck',
+  brandingUrl: 'https://github.com/Hundia/AutoDeck',
+};
+
 export default function App() {
   const acmeSlides = { en: slidesEN, he: slidesHE };
   const techBriefSlides = { en: slidesTechbriefEN, he: slidesTechbriefHE };
@@ -131,6 +151,14 @@ export default function App() {
           <Route
             path="/meta"
             element={<PresentationViewer config={metaConfig} slides={{ en: slidesMetaEN }} slideComponents={slideComponents} creationStory={metaCreationStory} />}
+          />
+          <Route
+            path="/vla"
+            element={<PresentationViewer config={vlaConfig} slides={{ en: slidesVlaEN }} slideComponents={slideComponents} />}
+          />
+          <Route
+            path="/humanoids"
+            element={<PresentationViewer config={humanoidsConfig} slides={{ en: slidesHumanoidsEN }} slideComponents={slideComponents} />}
           />
         </Routes>
       </HashRouter>
