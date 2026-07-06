@@ -1,8 +1,8 @@
 # AutoDeck
 
-![Build](https://github.com/Hundia/AutoDeck/actions/workflows/deploy.yml/badge.svg)
+![Build](https://github.com/scher99/AutoDeck/actions/workflows/deploy.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Stars](https://img.shields.io/github/stars/Hundia/AutoDeck?style=social)
+![Stars](https://img.shields.io/github/stars/scher99/AutoDeck?style=social)
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://hundia.github.io/AutoDeck/)
 
 **AI-generated. Framework-ready. Open source. Build stunning animated presentations with React + Framer Motion.**
@@ -26,7 +26,7 @@
 ## Quick Start
 
 ```bash
-git clone https://github.com/Hundia/AutoDeck
+git clone https://github.com/scher99/AutoDeck
 npm install
 npm run dev
 ```
@@ -39,10 +39,10 @@ Open http://localhost:5173/AutoDeck/ and start editing `src/slides/slides-en.ts`
 
 | Platform | Deploy |
 |----------|--------|
-| **Vercel** | [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Hundia/AutoDeck) |
-| **Netlify** | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Hundia/AutoDeck) |
-| **StackBlitz** | [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/Hundia/AutoDeck) |
-| **Codespaces** | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Hundia/AutoDeck) |
+| **Vercel** | [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/scher99/AutoDeck) |
+| **Netlify** | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/scher99/AutoDeck) |
+| **StackBlitz** | [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/scher99/AutoDeck) |
+| **Codespaces** | [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/scher99/AutoDeck) |
 
 ---
 
